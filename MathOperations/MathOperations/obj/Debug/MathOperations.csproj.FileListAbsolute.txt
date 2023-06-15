@@ -1,0 +1,7 @@
+C:\Users\disho\OneDrive\Desktop\Basic_C#_Programs\MathOperations\MathOperations\bin\Debug\MathOperations.exe.config
+C:\Users\disho\OneDrive\Desktop\Basic_C#_Programs\MathOperations\MathOperations\bin\Debug\MathOperations.exe
+C:\Users\disho\OneDrive\Desktop\Basic_C#_Programs\MathOperations\MathOperations\bin\Debug\MathOperations.pdb
+C:\Users\disho\OneDrive\Desktop\Basic_C#_Programs\MathOperations\MathOperations\obj\Debug\MathOperations.csproj.AssemblyReference.cache
+C:\Users\disho\OneDrive\Desktop\Basic_C#_Programs\MathOperations\MathOperations\obj\Debug\MathOperations.csproj.CoreCompileInputs.cache
+C:\Users\disho\OneDrive\Desktop\Basic_C#_Programs\MathOperations\MathOperations\obj\Debug\MathOperations.exe
+C:\Users\disho\OneDrive\Desktop\Basic_C#_Programs\MathOperations\MathOperations\obj\Debug\MathOperations.pdb
