@@ -1,0 +1,7 @@
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\ConsoleAppChallenge\ConsoleAppChallenge\obj\Debug\ConsoleAppChallenge.csproj.AssemblyReference.cache
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\ConsoleAppChallenge\ConsoleAppChallenge\obj\Debug\ConsoleAppChallenge.csproj.CoreCompileInputs.cache
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\ConsoleAppChallenge\ConsoleAppChallenge\bin\Debug\ConsoleAppChallenge.exe.config
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\ConsoleAppChallenge\ConsoleAppChallenge\bin\Debug\ConsoleAppChallenge.exe
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\ConsoleAppChallenge\ConsoleAppChallenge\bin\Debug\ConsoleAppChallenge.pdb
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\ConsoleAppChallenge\ConsoleAppChallenge\obj\Debug\ConsoleAppChallenge.exe
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\ConsoleAppChallenge\ConsoleAppChallenge\obj\Debug\ConsoleAppChallenge.pdb
