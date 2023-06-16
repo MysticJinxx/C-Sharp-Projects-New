@@ -27,17 +27,18 @@ namespace DailyReportSubmission
             // Help?
             Console.WriteLine("Do you need help with anything?");
             Console.WriteLine("Please answer \"true\" or \"false\"");
-            Console.ReadLine();
+            string assistance = Console.ReadLine();
+            bool helpNeeded = Convert.ToBoolean(assistance);
 
             // Positive Experiences
             Console.WriteLine("Were there any positive experiences you'd like to share?");
             Console.WriteLine("Please give specifics.");
-            Console.ReadLine();
+            string posExp = Console.ReadLine();
 
             // Feedback
             Console.WriteLine("Is there any other feedback you'd like to provide?");
             Console.WriteLine("Please be specific.");
-            Console.ReadLine();
+            string feedback = Console.ReadLine();
 
             // Hours Studied
             Console.WriteLine("How many hours did you study today?");
