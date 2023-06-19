@@ -1,0 +1,6 @@
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\BooleanLogicCarInsurance\BooleanLogicCarInsurance\bin\Debug\BooleanLogicCarInsurance.exe.config
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\BooleanLogicCarInsurance\BooleanLogicCarInsurance\bin\Debug\BooleanLogicCarInsurance.exe
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\BooleanLogicCarInsurance\BooleanLogicCarInsurance\bin\Debug\BooleanLogicCarInsurance.pdb
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\BooleanLogicCarInsurance\BooleanLogicCarInsurance\obj\Debug\BooleanLogicCarInsurance.csproj.CoreCompileInputs.cache
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\BooleanLogicCarInsurance\BooleanLogicCarInsurance\obj\Debug\BooleanLogicCarInsurance.exe
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\BooleanLogicCarInsurance\BooleanLogicCarInsurance\obj\Debug\BooleanLogicCarInsurance.pdb
