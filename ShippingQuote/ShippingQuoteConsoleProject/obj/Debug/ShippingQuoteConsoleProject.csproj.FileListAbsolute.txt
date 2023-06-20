@@ -1,0 +1,7 @@
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\ShippingQuote\ShippingQuoteConsoleProject\bin\Debug\ShippingQuoteConsoleProject.exe.config
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\ShippingQuote\ShippingQuoteConsoleProject\bin\Debug\ShippingQuoteConsoleProject.exe
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\ShippingQuote\ShippingQuoteConsoleProject\bin\Debug\ShippingQuoteConsoleProject.pdb
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\ShippingQuote\ShippingQuoteConsoleProject\obj\Debug\ShippingQuoteConsoleProject.csproj.AssemblyReference.cache
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\ShippingQuote\ShippingQuoteConsoleProject\obj\Debug\ShippingQuoteConsoleProject.csproj.CoreCompileInputs.cache
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\ShippingQuote\ShippingQuoteConsoleProject\obj\Debug\ShippingQuoteConsoleProject.exe
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\ShippingQuote\ShippingQuoteConsoleProject\obj\Debug\ShippingQuoteConsoleProject.pdb
