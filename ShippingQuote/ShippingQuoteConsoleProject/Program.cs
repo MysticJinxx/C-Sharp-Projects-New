@@ -22,29 +22,38 @@ namespace ShippingQuoteConsoleProject
 
             // Using if statement to determine if inputted weight is greater than 50 or not,
             // Then either continuing the program, or ending it with a message.
-            string result = (weight < 50) ? "What is the width of the package?" : "Package too heavy to be shipped via Package Express.";
-            Console.WriteLine(result);
-            // Takes user input for the width
-            int width = Convert.ToInt32(Console.ReadLine());
-            // height
-            Console.WriteLine("What is the height?");
-            int height = Convert.ToInt32(Console.ReadLine());
-            // length
-            Console.WriteLine("What is the length.");
-            int length = Convert.ToInt32(Console.ReadLine());
+            if (weight > 50)
+            {
+                Console.WriteLine("Package is too heavy to be shipped via Package Express.");
+            }
+            else
+            {
+                // Takes user input for the width
+                Console.WriteLine("What is the width of the package?");
+                int width = Convert.ToInt32(Console.ReadLine());
+                // height
+                Console.WriteLine("What is the height?");
+                int height = Convert.ToInt32(Console.ReadLine());
+                // length
+                Console.WriteLine("What is the length?");
+                int length = Convert.ToInt32(Console.ReadLine());
 
-            
-            // Math that multiplies the width by height by length
-            // Takes the product of above and multiplies that by weight
-            // Finally divides that by 100 to get the quote
-            int product = (width * height * length) * weight;
-            int quote = product / 100;
-
-            // If width + height + length is less than 50, prints the estimated total of shipping
-            // If not, Ends the program
-            string dimensions = (width + height + length < 50) ? "Your estimated total for shipping this package is: $" + quote : "Package is too big to be shipped via Package Express.";
-            Console.WriteLine(dimensions);
-
+                // If width + height + length is less than 50, prints the estimated total of shipping
+                // If not, Ends the program
+                if (width + height + length > 50)
+                {
+                    Console.WriteLine("Package is too big to be shipped via Package Express");
+                }
+                else
+                {
+                    // Math that multiplies the width by height by length
+                    // Takes the product of above and multiplies that by weight
+                    // Finally divides that by 100 to get the quote
+                    int product = (width * height * length) * weight;
+                    int quote = product / 100;
+                    Console.WriteLine("Your estimated total for shipping this package is: $" + quote); 
+                }
+            }
             Console.WriteLine("Thank you, and have a great day!");
 
             Console.ReadLine();
