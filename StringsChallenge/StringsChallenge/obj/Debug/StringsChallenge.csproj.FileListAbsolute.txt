@@ -1,0 +1,6 @@
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\StringsChallenge\StringsChallenge\obj\Debug\StringsChallenge.csproj.CoreCompileInputs.cache
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\StringsChallenge\StringsChallenge\bin\Debug\StringsChallenge.exe.config
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\StringsChallenge\StringsChallenge\bin\Debug\StringsChallenge.exe
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\StringsChallenge\StringsChallenge\bin\Debug\StringsChallenge.pdb
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\StringsChallenge\StringsChallenge\obj\Debug\StringsChallenge.exe
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\StringsChallenge\StringsChallenge\obj\Debug\StringsChallenge.pdb
