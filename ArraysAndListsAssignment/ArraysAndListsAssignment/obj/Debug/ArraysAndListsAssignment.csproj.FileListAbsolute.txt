@@ -1,0 +1,7 @@
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\ArraysAndListsAssignment\ArraysAndListsAssignment\bin\Debug\ArraysAndListsAssignment.exe.config
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\ArraysAndListsAssignment\ArraysAndListsAssignment\bin\Debug\ArraysAndListsAssignment.exe
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\ArraysAndListsAssignment\ArraysAndListsAssignment\bin\Debug\ArraysAndListsAssignment.pdb
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\ArraysAndListsAssignment\ArraysAndListsAssignment\obj\Debug\ArraysAndListsAssignment.csproj.AssemblyReference.cache
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\ArraysAndListsAssignment\ArraysAndListsAssignment\obj\Debug\ArraysAndListsAssignment.csproj.CoreCompileInputs.cache
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\ArraysAndListsAssignment\ArraysAndListsAssignment\obj\Debug\ArraysAndListsAssignment.exe
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\ArraysAndListsAssignment\ArraysAndListsAssignment\obj\Debug\ArraysAndListsAssignment.pdb
