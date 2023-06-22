@@ -100,8 +100,10 @@ namespace IterationAssignment
             // displays a message with the string and whether or not -
             // it has already appeared in the list.
 
+            // lists to store
             List<string> list = new List<string>();
             List<string> duplicateList = new List<string>();
+            
             // possible way to solve part 6
             //for (int i = 0; i < carList.Count; i++) 
             //{
