@@ -1,0 +1,7 @@
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\IterationAssignment\IterationAssignment\obj\Debug\IterationAssignment.csproj.AssemblyReference.cache
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\IterationAssignment\IterationAssignment\obj\Debug\IterationAssignment.csproj.CoreCompileInputs.cache
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\IterationAssignment\IterationAssignment\bin\Debug\IterationAssignment.exe.config
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\IterationAssignment\IterationAssignment\bin\Debug\IterationAssignment.exe
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\IterationAssignment\IterationAssignment\bin\Debug\IterationAssignment.pdb
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\IterationAssignment\IterationAssignment\obj\Debug\IterationAssignment.exe
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\IterationAssignment\IterationAssignment\obj\Debug\IterationAssignment.pdb
