@@ -91,53 +91,59 @@ namespace IterationAssignment
             //} while (!isInList);
             //Console.ReadLine();
 
+            //// PART FIVE
+            //// List of strings with 2 identical strings.
+            //List<string> groceryList = new List<string>() { "milk", "eggs", "bread", "cheese", "beans", "chicken", "beef", "ice cream", "potatoes", "yogurt", "eggs" };
+
+            ////// User inputs text to search for in the list.
+            //Console.WriteLine("Please type a item to search for in the grocery list.");
+            //string itemSearched = Console.ReadLine();
+            //bool isInList = false;
+            ////// Loop that iterates through the list,
+            ////// then displays the index of the item the user searched for.
+            ////// Text is printed if user inputs text that isn't in the list.
+            ////// Loop stops executing once a match has been found.
+            //do
+            //{
+            //    for (int i = 0; i < groceryList.Count; i++)
+            //    {
+            //        if (groceryList[i].Contains(itemSearched))
+            //        {
+            //            Console.WriteLine(i);
+            //            isInList = true;
+            //        }
+            //    }
+            //    if (!isInList)
+            //    {
+            //        Console.WriteLine(itemSearched + " doesn't appear to be in the grocery list \nPlease enter a new item.");
+            //        itemSearched = Console.ReadLine();
+            //    }
+            //} while (!isInList);
+            //Console.ReadLine();
+
             // PART SIX
             // List of strings with at least 2 identical strings
             List<string> carList = new List<string>() { "Ford", "Chevrolet", "GMC", "Buick", "Volkswagen", "Chevrolet", "Jaguar", "Volkswagen" };
-
+            List<string> dupeList = new List<string>();
 
             // foreach loop that evaluates each item in the list,
             // displays a message with the string and whether or not -
             // it has already appeared in the list.
-
-            // lists to store
-            List<string> list = new List<string>();
-            List<string> duplicateList = new List<string>();
-            
-            // possible way to solve part 6
-            //for (int i = 0; i < carList.Count; i++) 
-            //{
-            //    for (int j = i + 1; j < carList.Count; j++)
-            //    {
-            //        if (carList[j] == carList[i])
-            //        {
-            //            if (!list.Contains(carList[i]))
-            //            {
-            //                list.Add(carList[i]);
-            //            }
-            //        }
-            //    }
-            //}
-
-            //foreach (string X in list)
-            //{
-            //    Console.WriteLine(X);
-            //}
-            //Console.ReadLine();
-
-            // Possible way to solve part 6
+           
             foreach (string car in carList)
             {
-                if (!list.Contains(car))
+                if (dupeList.Contains(car))
                 {
-                    list.Add(car);
+                    Console.WriteLine(car + " is a duplicate.");
                 }
                 else
                 {
-                    duplicateList.Add(car);
+                    Console.WriteLine(car + " is unique.");
+                    dupeList.Add(car);
                 }
             }
-            duplicateList.ForEach(Console.WriteLine);
+           
+            
             Console.ReadLine();
         }
     }
