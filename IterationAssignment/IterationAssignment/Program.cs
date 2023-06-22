@@ -102,7 +102,7 @@ namespace IterationAssignment
 
             List<string> list = new List<string>();
             List<string> duplicateList = new List<string>();
-
+            // possible way to solve part 6
             //for (int i = 0; i < carList.Count; i++) 
             //{
             //    for (int j = i + 1; j < carList.Count; j++)
@@ -123,7 +123,7 @@ namespace IterationAssignment
             //}
             //Console.ReadLine();
 
-
+            // Possible way to solve part 6
             foreach (string car in carList)
             {
                 if (!list.Contains(car))
