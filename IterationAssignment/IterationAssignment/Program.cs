@@ -107,7 +107,7 @@ namespace IterationAssignment
             //{
             //    for (int i = 0; i < groceryList.Count; i++)
             //    {
-            //        if (groceryList[i].Contains(itemSearched))
+            //        if (groceryList[i] == itemSearched)
             //        {
             //            Console.WriteLine(i);
             //            isInList = true;
