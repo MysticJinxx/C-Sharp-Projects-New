@@ -1,0 +1,7 @@
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\TryCatchConsoleApp\TryCatchConsoleApp\bin\Debug\TryCatchConsoleApp.exe.config
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\TryCatchConsoleApp\TryCatchConsoleApp\bin\Debug\TryCatchConsoleApp.exe
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\TryCatchConsoleApp\TryCatchConsoleApp\bin\Debug\TryCatchConsoleApp.pdb
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\TryCatchConsoleApp\TryCatchConsoleApp\obj\Debug\TryCatchConsoleApp.csproj.AssemblyReference.cache
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\TryCatchConsoleApp\TryCatchConsoleApp\obj\Debug\TryCatchConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\TryCatchConsoleApp\TryCatchConsoleApp\obj\Debug\TryCatchConsoleApp.exe
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\TryCatchConsoleApp\TryCatchConsoleApp\obj\Debug\TryCatchConsoleApp.pdb
