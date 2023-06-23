@@ -8,6 +8,13 @@ namespace TwentyOne
 {
     public class Card
     {
+        // Constructor method
+        public Card()
+        {
+            Suit = "Spades";
+            Face = "Two";
+        }
+        // Properties of class card
         public string Suit { get; set; }
         public string Face { get; set; }
     }
