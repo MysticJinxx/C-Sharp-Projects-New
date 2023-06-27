@@ -20,9 +20,9 @@ namespace MethodOverloading
             // Method overload two
             int answerTwo = operations.opMethod(478);
             Console.WriteLine("478 multiplied by 5 is equal to " + answerTwo);
-           
 
-            // Method overload three
+
+            //// Method overload three
             int answerThree = Convert.ToInt32(operations.opMethod("5"));
             Console.WriteLine("\"5\" plus 1000 is equal to " + answerThree);
             Console.ReadLine();

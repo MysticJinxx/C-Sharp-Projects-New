@@ -8,30 +8,31 @@ namespace MethodOverloading
 {
     public class Operations
     {
-        // Takes a floating point number and subtracts 125
+        // Takes a decimal number and subtracts 125
         public decimal opMethod(decimal subtraction)
         {
-            decimal difference = subtraction - 125;
+            decimal decDifference = subtraction - 125;
+            int difference = Convert.ToInt32(decDifference);
             return difference;
         }
 
-        // Takes an intiger and multiplies it by 5
+        // Takes an integer and multiplies it by 5
         public int opMethod(int multiplication)
         {
             int product = multiplication * 5;
             return product;
         }
 
-        // Takes a string, converts it to a intiger and then adds it, if possible
+        // Takes a string, converts it to a integer and then adds it, if possible
         public string opMethod(string addition)
         {
             string stringSum = addition + 1000;
             int sum = Convert.ToInt32(stringSum);
-            return stringSum;
+            return sum;
         }
 
-        //public string opMethod(int )
         
+
 
     }
 }
