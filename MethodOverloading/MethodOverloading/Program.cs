@@ -13,7 +13,7 @@ namespace MethodOverloading
             Operations operations = new Operations();
 
             // Method overload one
-            float answerOne = operations.opMethod(500f);
+            int answerOne = Convert.ToInt32(operations.opMethod(500m));
             Console.WriteLine("500 minus 125 is equal to " + answerOne);
          
 
@@ -23,7 +23,7 @@ namespace MethodOverloading
            
 
             // Method overload three
-            string answerThree = operations.opMethod("5");
+            int answerThree = Convert.ToInt32(operations.opMethod("5"));
             Console.WriteLine("\"5\" plus 1000 is equal to " + answerThree);
             Console.ReadLine();
         }

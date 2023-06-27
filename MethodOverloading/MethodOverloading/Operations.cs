@@ -9,9 +9,9 @@ namespace MethodOverloading
     public class Operations
     {
         // Takes a floating point number and subtracts 125
-        public float opMethod(float subtraction)
+        public decimal opMethod(decimal subtraction)
         {
-            float difference = subtraction - 125;
+            decimal difference = subtraction - 125;
             return difference;
         }
 
