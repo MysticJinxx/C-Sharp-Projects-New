@@ -1,0 +1,6 @@
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\MultipleParameterMethod\MultipleParameterMethod\bin\Debug\MultipleParameterMethod.exe.config
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\MultipleParameterMethod\MultipleParameterMethod\bin\Debug\MultipleParameterMethod.exe
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\MultipleParameterMethod\MultipleParameterMethod\bin\Debug\MultipleParameterMethod.pdb
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\MultipleParameterMethod\MultipleParameterMethod\obj\Debug\MultipleParameterMethod.csproj.CoreCompileInputs.cache
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\MultipleParameterMethod\MultipleParameterMethod\obj\Debug\MultipleParameterMethod.exe
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\MultipleParameterMethod\MultipleParameterMethod\obj\Debug\MultipleParameterMethod.pdb
