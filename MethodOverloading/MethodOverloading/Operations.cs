@@ -9,7 +9,7 @@ namespace MethodOverloading
     public class Operations
     {
         // Takes a decimal number and subtracts 125
-        public decimal opMethod(decimal subtraction)
+        public int opMethod(decimal subtraction)
         {
             decimal decDifference = subtraction - 125;
             int difference = Convert.ToInt32(decDifference);
@@ -24,7 +24,7 @@ namespace MethodOverloading
         }
 
         // Takes a string, converts it to a integer and then adds it, if possible
-        public string opMethod(string addition)
+        public int opMethod(string addition)
         {
             string stringSum = addition + 1000;
             int sum = Convert.ToInt32(stringSum);
