@@ -8,9 +8,10 @@ namespace MultipleParameterMethod
 {
     public class Operations
     {
-        public int multMethod (int paraOne, int paraTwo)
+        public int multMethod (int paraOne, int paraTwo = 2)
         {
             int product = paraOne * paraTwo;
+           
             return product;
         }
     }

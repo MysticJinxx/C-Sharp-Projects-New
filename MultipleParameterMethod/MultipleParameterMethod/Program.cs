@@ -19,12 +19,24 @@ namespace MultipleParameterMethod
             Console.WriteLine("OPTIONAL: please enter a second number.");
             string userString = Console.ReadLine();
 
-            Int32.TryParse(userString, out int userNumTwo);
+            if (userString == "")
+            {
+                Console.WriteLine("2 was chosen for you.");
+                userString = Convert.ToString(2);
+                int answer = operations.multMethod(userNumOne);
+                Console.WriteLine(userNumOne + " times " + userString + " equals " + answer);
+            }
+            else
+            {
+                int userNumTwo = Convert.ToInt32(Console.ReadLine());
+                int answer = operations.multMethod(userNumOne, userNumTwo);
+                Console.WriteLine(userNumOne + " times " + userString + " equals " + answer);
+            }
+            
+            
 
-
-            int answer = operations.multMethod(userNumOne, userNumTwo);
-
-            Console.WriteLine(userNumOne + " times " + userNumTwo + " equals " + answer);
+            
+            
             Console.ReadLine();
         }
     }
