@@ -16,27 +16,43 @@ namespace MultipleParameterMethod
             Console.WriteLine("Please enter a number.");
             int userNumOne = Convert.ToInt32(Console.ReadLine());
 
+
+
+            //////This works
+            //try
+            //{
+            //    Console.WriteLine("OPTIONAL: please enter a second number.");
+            //    int userNumTwo = Convert.ToInt32(Console.ReadLine());
+            //    int answer = operations.multMethod(userNumOne, userNumTwo);
+            //    Console.WriteLine(userNumOne + " times " + userNumTwo + " equals " + answer);
+            //}
+            //catch
+            //{
+            //    int answer = operations.multMethod(userNumOne);
+            //    Console.WriteLine(userNumOne + " times 2 equals " + answer);
+            //}
+
             Console.WriteLine("OPTIONAL: please enter a second number.");
             string userString = Console.ReadLine();
-
             if (userString == "")
             {
+                
                 Console.WriteLine("2 was chosen for you.");
-                userString = Convert.ToString(2);
                 int answer = operations.multMethod(userNumOne);
                 Console.WriteLine(userNumOne + " times " + userString + " equals " + answer);
             }
             else
             {
-                int userNumTwo = Convert.ToInt32(Console.ReadLine());
-                int answer = operations.multMethod(userNumOne, userNumTwo);
-                Console.WriteLine(userNumOne + " times " + userString + " equals " + answer);
-            }
-            
-            
 
-            
-            
+                int userNumTwo = Convert.ToInt32(userString);
+                int answer = operations.multMethod(userNumOne, userNumTwo);
+                Console.WriteLine(userNumOne + " times " + userNumTwo + " equals " + answer);
+            }
+
+
+
+
+
             Console.ReadLine();
         }
     }
