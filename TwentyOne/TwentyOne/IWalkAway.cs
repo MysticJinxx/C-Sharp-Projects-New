@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace TwentyOne
 {
-    interface IWalkAway
+    interface IWalkAway // I stands for interface
     {
+        void WalkAway(Player player);
+
     }
 }
