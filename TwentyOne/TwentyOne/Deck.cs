@@ -10,6 +10,8 @@ namespace TwentyOne
     {
         // Constructor method for Deck
         public Deck()
+
+
         {
             // adding an empty list to the property Cards
             Cards = new List<Card>();
@@ -37,5 +39,28 @@ namespace TwentyOne
             }
         }
         public List<Card> Cards { get; set; }
+
+        // Creating a new method named Shuffle
+        public void Shuffle(int times = 1)
+        {
+            for (int i = 0; i < times; i++)
+            {
+                List<Card> tempList = new List<Card>();
+                Random random = new Random();
+
+                // do this till there are no cards left in our deck
+                while (Cards.Count > 0)
+                {
+                    int randomIndex = random.Next(0, Cards.Count);
+                    // adding cards to temp deck
+                    tempList.Add(Cards[randomIndex]);
+                    // deleting cards from list of cards
+                    Cards.RemoveAt(randomIndex);
+                }
+                this.Cards = tempList;
+            }
+
+        }
+
     }
 }
