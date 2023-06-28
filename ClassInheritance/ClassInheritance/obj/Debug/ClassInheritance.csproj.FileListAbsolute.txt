@@ -1,0 +1,6 @@
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\ClassInheritance\ClassInheritance\bin\Debug\ClassInheritance.exe.config
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\ClassInheritance\ClassInheritance\bin\Debug\ClassInheritance.exe
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\ClassInheritance\ClassInheritance\bin\Debug\ClassInheritance.pdb
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\ClassInheritance\ClassInheritance\obj\Debug\ClassInheritance.csproj.CoreCompileInputs.cache
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\ClassInheritance\ClassInheritance\obj\Debug\ClassInheritance.exe
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\ClassInheritance\ClassInheritance\obj\Debug\ClassInheritance.pdb
