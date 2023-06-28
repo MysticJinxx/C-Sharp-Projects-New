@@ -10,11 +10,6 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-            //TwentyOneGame game = new TwentyOneGame();
-            //game.Players = new List<string>() { "Josh", "Lijah", "Gavin" };
-            //game.ListPlayers();
-            //Console.ReadLine();
-
             // creating a new Deck called deck using our class Deck and its properties
             Deck deck = new Deck();
             // shuffles the deck 3 times
@@ -31,6 +26,18 @@ namespace TwentyOne
 
 
             ////// EXPERIMENTATION NOTES
+            ///
+            ///////// Abtstract/Virtual override
+            ////TwentyOneGame game = new TwentyOneGame();
+            ////game.Players = new List<string>() { "Josh", "Lijah", "Gaving" };
+            ////game.ListPlayers();
+            ////Console.ReadLine();
+            ///
+            /////List<Game> games = new List<Game>();
+            //// Polymorphism - abily of a class to morph into its inheritant class
+            //Game game = new TwentyOneGame();
+            //games.Add(game);
+
             ///// Object initialization
             //Card card = new Card() { Face = "King", Suit = "Spades" };
             // reassigning var deck to a shuffled version
