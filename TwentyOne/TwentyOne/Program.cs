@@ -28,10 +28,9 @@ namespace TwentyOne
 
             // creating a new Deck called deck using our class Deck and its properties
             Deck deck = new Deck();
-            //// shuffles the deck 3 times
-            //deck = Shuffle(deck, 3);
-            int timesShuffled = 0;
-            deck = Shuffle(deck, out timesShuffled, 3);
+            // shuffles the deck 3 times
+            deck.Shuffle(3);
+            
             // reassigning var deck to a shuffled version
             //deck = Shuffle(deck: deck, times: 3);// deck: and times: are just for naming, doesnt affect the code.
             // loop for each card with class of Card in the deck with property of Cards
@@ -42,33 +41,10 @@ namespace TwentyOne
             }
             // prints the number of items in our deck
             Console.WriteLine(deck.Cards.Count);
-            Console.WriteLine("Times shuffled: {0}", timesShuffled);
             Console.ReadLine();
         }
 
-        // Creating a new method named Shuffle
-        public static Deck Shuffle (Deck deck, out int timesShuffled, int times = 1)
-        {
-            timesShuffled = 0;
-            for (int i = 0; i < times; i++)
-            {
-                timesShuffled++;
-                List<Card> tempList = new List<Card>();
-                Random random = new Random();
-
-                // do this till there are no cards left in our deck
-                while (deck.Cards.Count > 0)
-                {
-                    int randomIndex = random.Next(0, deck.Cards.Count);
-                    // adding cards to temp deck
-                    tempList.Add(deck.Cards[randomIndex]);
-                    // deleting cards from list of cards
-                    deck.Cards.RemoveAt(randomIndex);
-                }
-                deck.Cards = tempList;
-            }
-            
-            return deck;
+        
 
         }
 
@@ -84,4 +60,4 @@ namespace TwentyOne
         //    return deck;
         //}
     }
-}
+
