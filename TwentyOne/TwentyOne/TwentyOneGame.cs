@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TwentyOne
 {
-    class TwentyOneGame : Game // TwentyOneGame inherits from class Game
+    class TwentyOneGame : Game, IWalkAway // TwentyOneGame inherits from class Game
     {
         public override void Play()
         {
@@ -15,8 +15,12 @@ namespace TwentyOne
 
         public override void ListPlayers()
         {
-            Console.WriteLine("21 Players: ")
+            Console.WriteLine("21 Players: ");
             base.ListPlayers();
+        }
+        public void WalkAway(Player player)
+        {
+            throw new NotImplementedException();
         }
     }
 }
