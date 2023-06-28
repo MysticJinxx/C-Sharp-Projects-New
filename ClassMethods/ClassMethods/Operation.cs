@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassMethods
 {
-    public static class Operation
+    public class Operation
     {
         public void outMethod(int num1)
         {
