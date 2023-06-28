@@ -10,6 +10,32 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
+            //TwentyOneGame game = new TwentyOneGame();
+            //game.Players = new List<string>() { "Josh", "Lijah", "Gavin" };
+            //game.ListPlayers();
+            //Console.ReadLine();
+
+            // creating a new Deck called deck using our class Deck and its properties
+            Deck deck = new Deck();
+            // shuffles the deck 3 times
+            deck.Shuffle(3);
+            // loop for each card with class of Card in the deck with property of Cards
+            // Prints a face and suit 52 times, one for every card
+            foreach (Card card in deck.Cards)
+            {
+                Console.WriteLine(card.Face + " of " + card.Suit);
+            }
+            // prints the number of items in our deck
+            Console.WriteLine(deck.Cards.Count);
+            Console.ReadLine();
+
+
+            ////// EXPERIMENTATION NOTES
+            ///// Object initialization
+            //Card card = new Card() { Face = "King", Suit = "Spades" };
+            // reassigning var deck to a shuffled version
+            //deck = Shuffle(deck: deck, times: 3);// deck: and times: are just for naming, doesnt affect the code.
+
             ////////// if we wanted to do every card one at a time, this could work
             ////////// adding a new list to the property Cards of our new deck
             ////////deck.Cards = new List<Card>();
@@ -24,29 +50,11 @@ namespace TwentyOne
             ////////deck.Cards.Add(cardOne);
 
             ////////Console.WriteLine(cardOne.Face + " of " + cardOne.Suit);
-
-
-            // creating a new Deck called deck using our class Deck and its properties
-            Deck deck = new Deck();
-            // shuffles the deck 3 times
-            deck.Shuffle(3);
-            
-            // reassigning var deck to a shuffled version
-            //deck = Shuffle(deck: deck, times: 3);// deck: and times: are just for naming, doesnt affect the code.
-            // loop for each card with class of Card in the deck with property of Cards
-            // Prints a face and suit 52 times, one for every card
-            foreach (Card card in deck.Cards)
-            {
-                Console.WriteLine(card.Face + " of " + card.Suit);
-            }
-            // prints the number of items in our deck
-            Console.WriteLine(deck.Cards.Count);
-            Console.ReadLine();
         }
 
-        
 
-        }
+
+    }
 
         //// creating an overload method also called shuffle
         //// takes 2 inputs to function and shuffles the deck multiple times
