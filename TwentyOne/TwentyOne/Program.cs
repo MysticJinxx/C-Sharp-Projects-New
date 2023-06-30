@@ -10,6 +10,18 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
+            //// OverLoading Operators
+            //Game game = new TwentyOneGame();
+            //game.Players = new List<Player>(); // instatiating a our player list
+            //Player player = new Player();
+            //player.Name = "Josh";
+            //game += player; // using our operator+ overload method
+            //game -= player;
+
+            /////
+            ///// CURRENT USED
+            /////
+            
             // creating a new Deck called deck using our class Deck and its properties
             Deck deck = new Deck();
             // shuffles the deck 3 times
@@ -24,12 +36,17 @@ namespace TwentyOne
             Console.WriteLine(deck.Cards.Count);
             Console.ReadLine();
 
+            /////
+            ///// /CURRENT USED
+            /////
+
+
 
             ////// EXPERIMENTATION NOTES
             ///
             ///////// Abtstract/Virtual override
             ////TwentyOneGame game = new TwentyOneGame();
-            ////game.Players = new List<string>() { "Josh", "Lijah", "Gaving" };
+            ////game.Players = new List<string>() { "Josh", "Lijah", "Gavin" };
             ////game.ListPlayers();
             ////Console.ReadLine();
             ///
