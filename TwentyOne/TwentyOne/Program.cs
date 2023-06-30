@@ -10,13 +10,7 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-            //// OverLoading Operators
-            //Game game = new TwentyOneGame();
-            //game.Players = new List<Player>(); // instatiating a our player list
-            //Player player = new Player();
-            //player.Name = "Josh";
-            //game += player; // using our operator+ overload method
-            //game -= player;
+            
 
             /////
             ///// CURRENT USED
@@ -41,8 +35,16 @@ namespace TwentyOne
             /////
 
 
-
-            ////// EXPERIMENTATION NOTES
+            /////
+            ///// EXPERIMENTATION NOTES
+            /////
+            /// //// OverLoading Operators
+            // Game game = new TwentyOneGame();
+            // game.Players = new List<Player>(); // instatiating a our player list
+            // Player player = new Player();
+            // player.Name = "Josh";
+            // game += player; // using our operator+ overload method
+            // game -= player;
             ///
             ///////// Abtstract/Virtual override
             ////TwentyOneGame game = new TwentyOneGame();
@@ -74,6 +76,10 @@ namespace TwentyOne
             ////////deck.Cards.Add(cardOne);
 
             ////////Console.WriteLine(cardOne.Face + " of " + cardOne.Suit);
+
+            /////
+            ///// /EXPERIMENTATION NOTES
+            /////
         }
 
 
