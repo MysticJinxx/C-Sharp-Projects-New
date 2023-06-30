@@ -16,6 +16,7 @@ namespace OperatorOverload
         /////
         ///// OPERATOR OVERLOAD
         /////
+        ///One way
         //public static bool operator ==(Employee employee1, Employee employee2)
         //{
         //    if ((object)employee1 == null)
@@ -28,20 +29,6 @@ namespace OperatorOverload
         //    return !(employee1 == employee2);
         //}
 
-        //public static bool operator ==(Employee employee1, Employee employee2)
-        //{
-        //    if (employee1.Id == employee2.Id)
-        //        return employee1.Id == employee2.Id;
-        //    else
-        //        return employee1.Id != employee2.Id;
-        //}
-
-        //public static bool operator !=(Employee employee1, Employee employee2)
-        //{
-        //    return employee1.Id != employee2.Id;
-        //}
-
-
         //public override bool Equals(Object obj)
         //{
         //    var employee = obj as Employee;
@@ -51,6 +38,20 @@ namespace OperatorOverload
 
         //    return this.Id.Equals(employee.Id);
         //}
+
+        ///Another way
+        //public static bool operator ==(Employee employee1, Employee employee2)
+        //{
+        //    return (employee1.Id == employee2.Id)
+        //}
+
+        //public static bool operator !=(Employee employee1, Employee employee2)
+        //{
+        //    return (employee1.Id != employee2.Id);
+        //}
+
+
+
 
         /////
         ///// /OPERATOR OVERLOAD
