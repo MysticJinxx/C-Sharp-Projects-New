@@ -13,7 +13,7 @@ namespace OperatorOverload
             Employee employee1 = new Employee() { Id = 01, Name = "Joshua" };
             Employee employee2 = new Employee() { Id = 02, Name = "Gavin" };
 
-            Employee.Equals(employee1, employee2);
+            Console.WriteLine("Do the 2 employee's id numbers match? " + Employee.Equals(employee1, employee2));
             Console.ReadLine();
         }
     }
