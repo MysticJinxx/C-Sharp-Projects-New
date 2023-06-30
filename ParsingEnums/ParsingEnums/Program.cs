@@ -10,7 +10,6 @@ namespace ParsingEnums
     {
         static void Main(string[] args)
         {
-            
             // User input
             Console.WriteLine("Please enter the current day of the week. \nMake sure the first letter is capitalized!");
             string currentDay = Console.ReadLine();
@@ -18,8 +17,7 @@ namespace ParsingEnums
             try
             {
                 // Assign the value to a variable of the enum data type we created.
-                DayOfWeek day = (DayOfWeek)Enum.Parse(typeof(DayOfWeek), currentDay);
-                Console.WriteLine("You wrote that the current day is " + currentDay);
+                Console.WriteLine(Enum.Parse(typeof(DayOfWeek), currentDay));
                 Console.ReadLine();
             }
             catch
