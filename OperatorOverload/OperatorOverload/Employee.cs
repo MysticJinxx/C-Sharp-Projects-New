@@ -6,23 +6,27 @@ using System.Threading.Tasks;
 
 namespace OperatorOverload
 {
-    class Employee
+    public class Employee<T>
     {
-        public List<Employee> Employees { get; set; }
+        public List<T> Things { get; set; }
+        public List<string> Employees { get; set; }
         public int Id { get; set; }
         public string Name { get; set; }
 
-        public static bool operator ==(Employee employee1, Employee employee2)
-        {
-            if ((object)employee1 == null)
-                return (object)employee2 == null;
-            return employee1.Equals(employee2);
-        }
+        /////
+        ///// OPERATOR OVERLOAD
+        /////
+        //public static bool operator ==(Employee employee1, Employee employee2)
+        //{
+        //    if ((object)employee1 == null)
+        //        return (object)employee2 == null;
+        //    return employee1.Equals(employee2);
+        //}
 
-        public static bool operator !=(Employee employee1, Employee employee2)
-        {
-            return !(employee1 == employee2);
-        }
+        //public static bool operator !=(Employee employee1, Employee employee2)
+        //{
+        //    return !(employee1 == employee2);
+        //}
 
         //public static bool operator ==(Employee employee1, Employee employee2)
         //{
@@ -38,14 +42,18 @@ namespace OperatorOverload
         //}
 
 
-        public override bool Equals(Object obj)
-        {
-            var employee = obj as Employee;
+        //public override bool Equals(Object obj)
+        //{
+        //    var employee = obj as Employee;
 
-            if (employee == null)
-                return false;
+        //    if (employee == null)
+        //        return false;
 
-            return this.Id.Equals(employee.Id);
-        }
+        //    return this.Id.Equals(employee.Id);
+        //}
+
+        /////
+        ///// /OPERATOR OVERLOAD
+        /////
     }
 }
