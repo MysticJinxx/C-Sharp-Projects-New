@@ -13,20 +13,21 @@ namespace TwentyOne
             /////
             ///// CURRENT USED
             /////
-            
+
             // creating a new Deck called deck using our class Deck and its properties
             Deck deck = new Deck();
-            // shuffles the deck 3 times
-            deck.Shuffle(3);
-            // loop for each card with class of Card in the deck with property of Cards
-            // Prints a face and suit 52 times, one for every card
-            foreach (Card card in deck.Cards)
-            {
-                Console.WriteLine(card.Face + " of " + card.Suit);
-            }
-            // prints the number of items in our deck
-            Console.WriteLine(deck.Cards.Count);
-            Console.ReadLine();
+
+            //// shuffles the deck 3 times
+            //deck.Shuffle(3);
+            //// loop for each card with class of Card in the deck with property of Cards
+            //// Prints a face and suit 52 times, one for every card
+            //foreach (Card card in deck.Cards)
+            //{
+            //    Console.WriteLine(card.Face + " of " + card.Suit);
+            //}
+            //// prints the number of items in our deck
+            //Console.WriteLine(deck.Cards.Count);
+            //Console.ReadLine();
 
             /////
             ///// /CURRENT USED
@@ -36,6 +37,25 @@ namespace TwentyOne
             /////
             ///// EXPERIMENTATION NOTES
             /////
+            ///
+            ///             //// LAMDA EXAMPLES
+            //// Pulls the kings from the deck and put them in new list
+            //List<Card> newList = deck.Cards.Where(x => x.Face == Face.King).ToList();
+            //// Quick way of finding the sum of a list
+            //List<int> numberList = new List<int>() { 1, 2, 3, 535, 342, 23 };
+            //int sum = numberList.Sum(x => x + 5);// lambda function that takes each item in list and adds 5 to it
+            /// 
+            ///  // a foreach loop and the lamda that matches it
+            //int counter = 0;
+            //foreach (Card card in deck.Cards)
+            //{
+            //    if (card.Face == Face.Ace)
+            //    {
+            //        counter++;
+            //    }
+            //}
+            // The lambda
+            //int count = deck.Cards.Count(x => x.Face == Face.Ace); 
             /// //// OverLoading Operators
             // Game game = new TwentyOneGame();
             // game.Players = new List<Player>(); // instatiating a our player list
