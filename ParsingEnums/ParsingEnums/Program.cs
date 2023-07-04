@@ -17,7 +17,11 @@ namespace ParsingEnums
             try
             {
                 // Assign the value to a variable of the enum data type we created.
+                // This works
                 Console.WriteLine(Enum.Parse(typeof(DayOfWeek), currentDay));
+                // This also works
+                DayOfWeek day = (DayOfWeek)Enum.Parse(typeof(DayOfWeek), currentDay);
+                Console.WriteLine(day);
                 Console.ReadLine();
             }
             catch
