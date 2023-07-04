@@ -1,0 +1,7 @@
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\LamdaAssignment\LamdaAssignment\bin\Debug\LamdaAssignment.exe.config
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\LamdaAssignment\LamdaAssignment\bin\Debug\LamdaAssignment.exe
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\LamdaAssignment\LamdaAssignment\bin\Debug\LamdaAssignment.pdb
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\LamdaAssignment\LamdaAssignment\obj\Debug\LamdaAssignment.csproj.AssemblyReference.cache
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\LamdaAssignment\LamdaAssignment\obj\Debug\LamdaAssignment.csproj.CoreCompileInputs.cache
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\LamdaAssignment\LamdaAssignment\obj\Debug\LamdaAssignment.exe
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\LamdaAssignment\LamdaAssignment\obj\Debug\LamdaAssignment.pdb
