@@ -17,6 +17,7 @@ namespace TwentyOne
             Hand.Add(Deck.Cards.First()); // Adds the first card to Hand
             Console.WriteLine(Deck.Cards.First().ToString() + "\n"); // Prints the first card
             Deck.Cards.RemoveAt(0); // Removes index 0 - the item we just added to the Hand
+
         }
     }
 }

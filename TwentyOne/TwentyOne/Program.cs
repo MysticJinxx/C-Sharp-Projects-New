@@ -14,20 +14,27 @@ namespace TwentyOne
             ///// CURRENT USED
             /////
 
-            // creating a new Deck called deck using our class Deck and its properties
-            Deck deck = new Deck();
-
-            //// shuffles the deck 3 times
-            //deck.Shuffle(3);
-            //// loop for each card with class of Card in the deck with property of Cards
-            //// Prints a face and suit 52 times, one for every card
-            //foreach (Card card in deck.Cards)
-            //{
-            //    Console.WriteLine(card.Face + " of " + card.Suit);
-            //}
-            //// prints the number of items in our deck
-            //Console.WriteLine(deck.Cards.Count);
-            //Console.ReadLine();
+            Console.WriteLine("Welcome to the Grand Hotel and Casino. Let's start be telling us your name.");
+            string playerName = Console.ReadLine();
+            Console.WriteLine("How much money would you like to play with today?");
+            int bank = int.Parse(Console.ReadLine());
+            Console.WriteLine("Hello, {0}. Would you like to join a game of 21 right now?", playerName);
+            string answer = Console.ReadLine().ToLower();
+            if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya")
+            {
+                Player player = new Player(playerName, bank);
+                Game game = new TwentyOneGame();
+                game += player;
+                player.isActivelyPlaying = true;
+                while (player.isActivelyPlaying && player.Balance > 0)
+                {
+                    game.Play();
+                }
+                game -= player;
+                Console.WriteLine("Thanks for playing!");
+            }
+            Console.WriteLine("Feel free to look around the casino, bye for now.");
+            Console.Read();
 
             /////
             ///// /CURRENT USED
