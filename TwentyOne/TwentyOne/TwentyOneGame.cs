@@ -131,7 +131,7 @@ namespace TwentyOne
                 // gives players their winnings
                 foreach (KeyValuePair<Player, int> entry in Bets)
                 {
-                    Console.WriteLine("{0} {1}!", entry.Key.Name, entry.Value);
+                    Console.WriteLine("{0} wins {1}!", entry.Key.Name, entry.Value);
                     Players.Where(x => x.Name == entry.Key.Name).First().Balance += (entry.Value * 2);
                     Dealer.Balance -= entry.Value;
                 }
@@ -147,7 +147,7 @@ namespace TwentyOne
                 }
                 else if (playerWon == true)
                 {
-                    Console.WriteLine("{0} won {1}!", player.Name, Bets[player]);
+                    Console.WriteLine("{0} wins {1}!", player.Name, Bets[player]);
                     player.Balance += (Bets[player] * 2);
                     Dealer.Balance -= Bets[player];
                 }
@@ -161,10 +161,12 @@ namespace TwentyOne
                 if (answer == "yes" || answer == "yeah")
                 {
                     player.isActivelyPlaying = true;
+                    return;
                 }
                 else
                 {
                     player.isActivelyPlaying = false;
+                    return;
                 }
             }
         }
