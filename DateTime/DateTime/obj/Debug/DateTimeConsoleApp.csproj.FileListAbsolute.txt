@@ -1,0 +1,6 @@
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\DateTime\DateTime\bin\Debug\DateTime.exe.config
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\DateTime\DateTime\bin\Debug\DateTime.exe
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\DateTime\DateTime\bin\Debug\DateTime.pdb
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\DateTime\DateTime\obj\Debug\DateTimeConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\DateTime\DateTime\obj\Debug\DateTime.exe
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\DateTime\DateTime\obj\Debug\DateTime.pdb
