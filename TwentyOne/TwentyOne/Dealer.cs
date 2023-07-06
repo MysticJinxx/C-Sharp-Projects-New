@@ -21,6 +21,7 @@ namespace TwentyOne
             // writing the card to alog everytime its dealt
             using (StreamWriter file = new StreamWriter(@"C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\Log\log.txt", true))
             {
+                file.WriteLine(DateTime.Now);// logs the current time for every card
                 file.WriteLine(card);
             }
                 Deck.Cards.RemoveAt(0); // Removes index 0 - the item we just added to the Hand
