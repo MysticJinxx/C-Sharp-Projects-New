@@ -1,0 +1,6 @@
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\LoggingTextFiles\LoggingTextFiles\bin\Debug\LoggingTextFiles.exe.config
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\LoggingTextFiles\LoggingTextFiles\bin\Debug\LoggingTextFiles.exe
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\LoggingTextFiles\LoggingTextFiles\bin\Debug\LoggingTextFiles.pdb
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\LoggingTextFiles\LoggingTextFiles\obj\Debug\LoggingTextFiles.csproj.CoreCompileInputs.cache
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\LoggingTextFiles\LoggingTextFiles\obj\Debug\LoggingTextFiles.exe
+C:\Users\disho\OneDrive\Documents\GitHub\C-Sharp-Projects-New\LoggingTextFiles\LoggingTextFiles\obj\Debug\LoggingTextFiles.pdb
